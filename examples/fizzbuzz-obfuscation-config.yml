@@ -1,6 +1,10 @@
 input: fizzbuzz/build/libs/fizzbuzz-1.0.0.jar # Make sure to update the version as gradle's output JAR is a moving target!
 output: fizzbuzz-1.0.0-obf.jar
 
+entry_points:
+  - class: enterprises/fizzbuzz/launch/ManifestMainClassApplicationEntryPoint
+    method: main
+
 remapper:
   dictionaries:
     - confusables
