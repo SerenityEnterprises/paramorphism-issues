@@ -4,3 +4,11 @@ output: fizzbuzz-1.0.0-obf.jar
 entry_points:
   - class: enterprises/fizzbuzz/launch/ManifestMainClassApplicationEntryPoint
     method: main
+
+custom:
+  dictionaries:
+    fizzbuzz: obf-dictionary-fizzbuzz.json
+
+remapper:
+  dictionaries:
+    - fizzbuzz

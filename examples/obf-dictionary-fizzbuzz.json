@@ -1,0 +1,8 @@
+{
+    "elements": [
+        "fizz",
+        "buzz"
+    ],
+
+    "joiner": " "
+}
